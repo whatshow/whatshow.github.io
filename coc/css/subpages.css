@@ -1,0 +1,39 @@
+/* 内容 */
+.Content{
+    display:                block;
+    margin-top:             50px;
+}
+@media screen and (min-width: 1200px) {
+    .Content{
+        margin-left:        auto;
+        margin-right:       auto;
+        width:              1200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Content{
+        width:              100%;
+        padding-left:       20px;
+        padding-right:      20px;
+    }
+}
+
+/* 标题 */
+.Title{
+    padding: 20px 0 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+/* 子标题 */
+.SubTitle{
+    font-size: 20px;
+    font-weight:normal;
+}
+.Title .SubTitle{
+    display: inline-block;
+    margin-left: 50px;
+
+    font-weight:normal;
+}
