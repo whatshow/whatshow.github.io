@@ -31,10 +31,12 @@
     font-size: 14px;
     font-weight:normal;
     text-indent: 40px;
+    margin-bottom: 30px;
 }
 .Title .SubTitle{
     display: inline-block;
     margin-left: 50px;
 
     font-weight:normal;
+    margin-bottom: 0;
 }

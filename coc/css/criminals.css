@@ -1,0 +1,14 @@
+/* 列表 */
+@media screen and (min-width: 1200px) {
+    .List{
+        list-style:     none;
+        width:          1200px;
+        margin:         0 auto;
+    }
+    .List li{
+        display:        block;
+        float:          left;
+        width:          300px;
+        padding:        20px;
+    }
+}
