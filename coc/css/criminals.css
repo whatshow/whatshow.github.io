@@ -9,6 +9,7 @@
     .List li{
         display:        inline-block;
         vertical-align: top;
+        text-align:     left;
         width:          300px;
         padding:        20px;
     }
