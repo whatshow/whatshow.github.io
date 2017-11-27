@@ -4,10 +4,11 @@
         list-style:     none;
         width:          1200px;
         margin:         0 auto;
+        text-align:     center;
     }
     .List li{
-        display:        block;
-        float:          left;
+        display:        inline-block;
+        vertical-align: top;
         width:          300px;
         padding:        20px;
     }
