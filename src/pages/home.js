@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 //引入数据
 import { data } from '../data';
 
@@ -46,10 +47,10 @@ export class Home extends React.Component{
                 }
                 //增加内容
                 contents.push(
-                    <Cell key={i + '-' + j} href={`/details?param=${JSON.stringify(data.part2[i].contents[j])}&&tab=2`} access>
+                    <Link to={`/details?param=${JSON.stringify(data.part2[i].contents[j])}&&tab=2`} className="weui-cell weui-cell_access">
                         <CellBody>{ data.part2[i].contents[j].question}</CellBody>
                         { isChecked }
-                    </Cell>
+                    </Link>
                 );
             }
             this.state.part2.push(<Cells>{ contents }</Cells>);
