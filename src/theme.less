@@ -1,0 +1,47 @@
+@charset "utf-8";
+@primary-color-1: #4682B4;
+@primary-color-2: lighten(@primary-color-1, 10%);
+
+@background-black: #24292e;
+
+/* navbar */
+.navbar-back{
+  display:  block;
+
+  -moz-box-sizing: border-box; /*Firefox3.5+*/
+  -webkit-box-sizing: border-box; /*Safari3.2+*/
+  -o-box-sizing: border-box; /*Opera9.6*/
+  -ms-box-sizing: border-box; /*IE8*/
+  box-sizing: border-box;
+
+  height: 50px;
+  padding:  13px 8px;
+
+  background-color: @background-black;
+  color:            rgba(255, 255, 255, 0.6);
+  &:before{
+    display:      inline-block;
+    content:      "<";
+    padding-right: 20px;
+  }
+}
+.weui-navbar{
+  background-color: @background-black;
+}
+.weui-navbar__item{
+  color:  rgba(255, 255, 255, 60);
+}
+.weui-navbar__item.weui-bar__item_on{
+  background-color: @primary-color-1;
+}
+
+/* 界面操作 */
+.NoPadding{
+  padding: 0;
+}
+.LeftMarginButNotTheFirst{
+  position:   relative;
+  font-size:  15px;
+  text-indent:  -50px;
+  padding-left: 50px;
+}
