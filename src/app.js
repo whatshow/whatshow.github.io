@@ -10,7 +10,6 @@ export class App extends React.Component{
      */
     constructor(props){
         super(props);
-
     }
     /**
      * 构造前执行

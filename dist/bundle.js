@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "20e8d058c43642294d39"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "69d6733b7186776525e5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -15316,7 +15316,7 @@ var App = exports.App = function (_React$Component) {
                     'div',
                     null,
                     _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _pages.Home }),
-                    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/details', component: _pages.Details })
+                    _react2.default.createElement(_reactRouterDom.Route, { path: '/details', component: _pages.Details })
                 )
             );
         }
@@ -20666,6 +20666,8 @@ var _react = __webpack_require__("GiK3");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouterDom = __webpack_require__("F8kA");
+
 var _data = __webpack_require__("vnjs");
 
 var _reactWeui = __webpack_require__("okne");
@@ -20735,8 +20737,8 @@ var Home = exports.Home = function (_React$Component) {
                     }
                     //增加内容
                     contents.push(_react2.default.createElement(
-                        _reactWeui.Cell,
-                        { key: i + '-' + j, href: '/details?param=' + JSON.stringify(_data.data.part2[i].contents[j]) + '&&tab=2', access: true },
+                        _reactRouterDom.Link,
+                        { to: '/details?param=' + JSON.stringify(_data.data.part2[i].contents[j]) + '&&tab=2', className: 'weui-cell weui-cell_access' },
                         _react2.default.createElement(
                             _reactWeui.CellBody,
                             null,
