@@ -4,6 +4,31 @@ export const data = {
     ],
     part2:[
         {
+            category: 'People',
+            contents:[
+                {
+                    question: "1. Describe someone who is a good parent  ",
+                    subquestions:["You should say:", "Who the person is", "What kind of person he/she is", "Why you think he/she is good", "And explain how you felt about it"],
+                    answers:[
+                        "I want to talk about my father, a truly well-done parent",
+                        "You know, there are many criteria to judge a parent, but I think a good parent must have a big vision",
+                        "Apparently, my father follows the pattern",
+                        "You know, he is an engineer of thermotics",
+                        "He realizes that English are and will be the major skill cause he has to read English references",
+                        "So does he just study vocabularies and grammars?",
+                        "No, he digs more",
+                        "He is studying etymology",
+                        "You know, the prefix of de means bad, such as detrimental",
+                        "He even teaches me etymology",
+                        "It helps me a lot",
+                        "When I study IELTS, I find its vocabulary just follow the pattern and I can make progress easily",
+                        "He is main reason why I can understand you and speak to you",
+                        "I thank him everyday and that's all"
+                    ]
+                }
+            ]
+        },
+        {
             category: 'object',
             contents:[
                 {
@@ -24,6 +49,26 @@ export const data = {
                         "From then on, I became interested in programming",
                         "You see, that's the best toy I have receive cause it influenced my career, you know, I'm a software engineer now",
                         "That's why we meet each other in this room and at this moment."
+                    ]
+                },
+                {
+                    question: "10. Describe a piece of furniture you like.  ",
+                    subquestions:["You should say:", "What kind of furniture it is", "When you see the furniture", "What it looks like", "And explain why you like the furniture"],
+                    answers:[
+                        "I want to talk about my sofa",
+                        "It is a furniture for leisure time",
+                        "I can sleep for a while on it or chat with my parents on it",
+                        "So what it looks like",
+                        "It is one meter long, elastic enough to release myself, and as brown as a tree so that I feel I live in a forest",
+                        "When I entered my senior high school, my father bought the sofa which my mother called it a waste of money",
+                        "But is it really a garbage without any value",
+                        "No, I like it, and even my mother now admit the sofa makes our home comfortable",
+                        "You know, my parents are so old that they have a soft container to support their body",
+                        "The sofa just meets their need, especially when they watch TV",
+                        "The sofa also provides a chance to socialize",
+                        "You know, the sofa is spacious enough to hold three of us.",
+                        "So we can chat with each other freely",
+                        "You see, the sofa is vital in my home and I really like it, and that's all"
                     ]
                 }
             ]
@@ -78,17 +123,17 @@ export const data = {
                         "I want to talk about the HuangPu park in ShangHai",
                         "It goes through ShangHai and lies in the estuary of ChangJiang",
                         "So it is the biggest park in ShangHai",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
+                        "The pubic park is very unique because it is divided into 2 parts by HuangPu River, a branch of ChangJiangRiver",
+                        "So the only to get to another part is by ferry",
+                        "You see the park is so big that it takes about 20 square kilometers",
+                        "That's the biggest place for citizens to relax",
+                        "You know, I often go to that park for relax",
+                        "cause you can hear the bird chirping, look at waves or even jogging along the bank",
+                        "It is so stress-relieve",
+                        "Also, there are some restaurants along the park",
+                        "So I can supply energy whenever I am exhausted",
+                        "The park is so fascinating that I even go to that park twice a month",
+                        "If I go back to ShangHai, I will visit the park as soon as possible and that's all",
                     ]
                 }
             ]
