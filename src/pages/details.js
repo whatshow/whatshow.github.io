@@ -2,6 +2,9 @@ import React from 'react';
 import { browserHistory, Link } from 'react-router-dom';
 import { Article } from "react-weui"
 
+//引入组件
+import { Drawer } from '../components/drawer';
+
 export class Details extends React.Component{
     constructor(props){
         super(props);
@@ -9,7 +12,8 @@ export class Details extends React.Component{
             title: null,
             subtitles: [],
             content: [],
-            audios: null
+            scratch: [],
+            audios: []
         };
     }
 
@@ -31,6 +35,21 @@ export class Details extends React.Component{
                     this.state.content.push(<p key={`details-answers${i}`} className="LeftMarginButNotTheFirst">{param.answers[i]}</p>);
                 }
             }
+            if(param && param.scratch && param.scratch.length > 0){
+                for(let i = 0; i < param.scratch.length; i++){
+                    this.state.scratch.push(<p>{ param.scratch[i] }</p>);
+                }
+            }
+            if(param && param.voices){
+                for(let i =0; i < param.voices.length; i++){
+                    this.state.audios.push(
+                        <div>
+                            { i + 1 }.
+                            <audio src={param.voices[i]} controls="controls"/>
+                        </div>
+                    );
+                }
+            }
         }
         this.forceUpdate();
 
@@ -47,7 +66,15 @@ export class Details extends React.Component{
                     <hr/>
                     { this.state.subtitles }
                     <hr/>
-                    { this.state.content }
+                    <Drawer title="大纲" >
+                        { this.state.scratch }
+                    </Drawer>
+                    <Drawer title="详细全文" defaultCollapsed>
+                        { this.state.content }
+                    </Drawer>
+                    <Drawer title="音频" >
+                        { this.state.audios }
+                    </Drawer>
                 </Article>
             </div>
         );
