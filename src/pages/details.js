@@ -72,7 +72,7 @@ export class Details extends React.Component{
                     <Drawer title="详细全文" defaultCollapsed={(tab == 2)}>
                         { this.state.content }
                     </Drawer>
-                    <Drawer title="音频" >
+                    <Drawer title="音频" noClick>
                         { this.state.audios }
                     </Drawer>
                 </Article>

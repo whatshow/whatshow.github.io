@@ -41,7 +41,8 @@ export class Drawer extends React.Component{
         super(props);
         this.state = {
             title:  props.title,
-            collapsed: !!props.defaultCollapsed
+            collapsed: !!props.defaultCollapsed,
+            noClick:   !!props.noClick
         }
     }
 
@@ -57,13 +58,13 @@ export class Drawer extends React.Component{
 
         return (
             doit ?
-                <DrawerContainer onClick={(e)=>{ this.setState({ collapsed: !this.state.collapsed }); }}>
+                <DrawerContainer onClick={this.onclick}>
                     {
                         this.props.children ? null : null
                     }
                     <DrawerTitle>
                         { this.state.title }
-                        <DrawerIcon>{ this.state.collapsed ? '+' : '-' }</DrawerIcon>
+                        <DrawerIcon style={{display: this.state.noClick ? "none" : "block"}}>{ this.state.collapsed ? '+' : '-' }</DrawerIcon>
                     </DrawerTitle>
                     {
                         this.state.collapsed ? null : <DrawerContent>{ this.props.children }</DrawerContent>
@@ -80,4 +81,14 @@ export class Drawer extends React.Component{
     isArray(o){
         return Object.prototype.toString.call(o)=='[object Array]';
     };
+    /**
+     * 展开
+     */
+    onclick = (e) =>{
+        if(this.state.noClick){
+            e.preventDefault();
+        }else{
+            this.setState({ collapsed: !this.state.collapsed});
+        }
+    }
 }
