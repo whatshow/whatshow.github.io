@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "bfc9e598f2190847c503"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "c4d153fa5d79e585e29c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -4229,6 +4229,43 @@ exports.f = Object.getOwnPropertySymbols;
 
 /***/ }),
 
+/***/ "1oHH":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var boat = exports.boat = {
+    category: "boat",
+    contents: [{
+        question: "Do you often travel by boat?",
+        answers: ["Not very ofter, I travel by boat once a year.", "You know, a boat ticket is too high for a mid class", "So I have to reduce my frequency of boat travels."]
+    }, {
+        question: "Have you ever been on a boat tour while you were on holidays?",
+        answers: []
+    }, {
+        question: "Would you like to have a holiday on a boat?",
+        answers: []
+    }, {
+        question: "In your country do people most often use boats or airplane?",
+        answers: []
+    }, {
+        question: "Do many people in your country own their own boat?",
+        answers: []
+    }, {
+        question: "Would you like to buy a boat?",
+        answers: []
+    }, {
+        question: "If you had your own boat, what would you do with it?",
+        answers: []
+    }]
+};
+
+/***/ }),
+
 /***/ "1ruT":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6627,6 +6664,25 @@ module.exports = { "default": __webpack_require__("9bBU"), __esModule: true };
 
 /***/ }),
 
+/***/ "CYcU":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa4 = exports.qa4 = {
+    question: "4. Describe a piece of technology you like to use",
+    subquestions: ["You should say:", "What the technology is", "When it was invented", "What it is used for", "How you feel about it"],
+    answers: [],
+    scratch: ["exoskeleton or bionic limbs", "invented by Hugh Herr, the father of this technology, in 2014 and this technology was shown in the TED talks because he helped, boston terrorist attact", "electrical material which can be stiff and soft, sensors to detect our electrical level from our skin, extra power to simulate our muscles", "use for the disabled and the old", "it saves our society", "imagine"], //大纲
+    voices: ["/audios/180316_003.mp3"] //声音
+};
+
+/***/ }),
+
 /***/ "Cdx3":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7814,6 +7870,25 @@ var createMemoryHistory = function createMemoryHistory() {
 };
 
 exports.default = createMemoryHistory;
+
+/***/ }),
+
+/***/ "He5T":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.part1 = undefined;
+
+var _boat = __webpack_require__("1oHH");
+
+var _Advertisement = __webpack_require__("cbf0");
+
+var part1 = exports.part1 = [_boat.boat, _Advertisement.ad];
 
 /***/ }),
 
@@ -9855,6 +9930,24 @@ module.exports = exports['default'];
 
 /***/ }),
 
+/***/ "Ko8B":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa5 = exports.qa5 = {
+    question: "5. Describe a skill that is important but you have not learned in school or at work",
+    subquestions: ["You should say:", "What the skill is", "Why it cannot be learned at school", "Why it is important", "How we learn it"],
+    scratch: ["what:talk strategy", "a sandwich talk", "why:students and teachers are well educated and if you are rude, they won't push on you or criticise you", "how:practice", "important: I always had problems with pms, supervisors and shareholders, you know, the company where I worked was small;I got a friend in my company"],
+    voices: ["/audios/180316_004.mp3"] //声音
+};
+
+/***/ }),
+
 /***/ "KuHV":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10494,11 +10587,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.data = undefined;
 
-var _part = __webpack_require__("dzCt");
+var _part = __webpack_require__("He5T");
+
+var _part2 = __webpack_require__("dzCt");
 
 var data = exports.data = {
-    part1: null,
-    part2: _part.part2,
+    part1: _part.part1,
+    part2: _part2.part2,
     part3: null
 };
 
@@ -10767,6 +10862,25 @@ var _Redirect2 = _interopRequireDefault(_Redirect);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _Redirect2.default; // Written in this round about way for babel-transform-imports
+
+/***/ }),
+
+/***/ "Pc0B":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa3 = exports.qa3 = {
+    question: "3. Describe a photo that you remember well",
+    subquestions: ["You should say:", "What’s in it", "When it was taken", "Who took that photo", "And explain why you remember it so well."],
+    answers: [],
+    scratch: ["during sophomore in my university", "my gf who was an excellent photographer", "a channel I can touch the flow of water through my fingers, a tiny rainbow which just includes red and blue", "a close contact to the nature, now I am restricted in skyscrapers"], //大纲
+    voices: ["/audios/180316_002.mp3"] //声音
+};
 
 /***/ }),
 
@@ -13095,7 +13209,7 @@ var Details = exports.Details = function (_React$Component) {
                     ),
                     _react2.default.createElement(
                         _drawer.Drawer,
-                        { title: '\u8BE6\u7EC6\u5168\u6587', defaultCollapsed: true },
+                        { title: '\u8BE6\u7EC6\u5168\u6587', defaultCollapsed: tab == 2 },
                         this.state.content
                     ),
                     _react2.default.createElement(
@@ -15997,6 +16111,24 @@ module.exports = exports['default'];
 
 /***/ }),
 
+/***/ "cK45":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa6 = exports.qa6 = {
+    question: "6. Describe a good service you received",
+    subquestions: ["You should say:", "What the service was", "When you received it", "Who you were with", "How you felt about it"],
+    scratch: ["Applied to University of south Australia, I wanted to have a master degree", "just few days ago, I got an official offer in my email", "I was frustrated, I did it alone, I had issues with my counsellors who seemed not care about my applications", "I felt confident and happy; I did it myself without any help, my life would promote in the future because I would be granted by a certification of engineering of Australia"],
+    voices: ["/audios/180316_005.mp3"] //声音
+};
+
+/***/ }),
+
 /***/ "cSAO":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16217,6 +16349,40 @@ Tab.defaultProps = {
 };
 exports.default = Tab;
 module.exports = exports['default'];
+
+/***/ }),
+
+/***/ "cbf0":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var ad = exports.ad = {
+    category: "32.avertisement",
+    contents: [{
+        question: "1.Are there many advertisements in your country?"
+    }, {
+        question: "2. Why do you think there are so many advertisements now?"
+    }, {
+        question: "3. How do you feel about advertisements?"
+    }, {
+        question: "4. Do you like advertisements?"
+    }, {
+        question: "5. What kind of advertisement do you like the most?"
+    }, {
+        question: " 6. Where can we see advertisements?"
+    }, {
+        question: "7. Do you think advertisements should be amusing or serious?"
+    }, {
+        question: "8.What do you think about the developing in advertising in China today?"
+    }, {
+        question: "9. How do you like advertisements on TV?"
+    }]
+};
 
 /***/ }),
 
@@ -18271,13 +18437,25 @@ exports.object = undefined;
 
 var _ = __webpack_require__("qzgY");
 
-var _2 = __webpack_require__("dZLt");
+var _2 = __webpack_require__("Pc0B");
+
+var _3 = __webpack_require__("CYcU");
+
+var _4 = __webpack_require__("Ko8B");
+
+var _5 = __webpack_require__("cK45");
+
+var _6 = __webpack_require__("zIr1");
+
+var _7 = __webpack_require__("dZLt");
 
 var _DescribeAnExcitingBookYouHaveRead = __webpack_require__("QSgu");
 
+var _8 = __webpack_require__("slOq");
+
 var object = exports.object = {
     category: 'Object',
-    contents: [_.qa1, _2.qa10, _DescribeAnExcitingBookYouHaveRead.qa11]
+    contents: [_.qa1, _2.qa3, _3.qa4, _4.qa5, _5.qa6, _6.qa9, _7.qa10, _DescribeAnExcitingBookYouHaveRead.qa11, _8.qa12]
 };
 
 /***/ }),
@@ -23085,23 +23263,21 @@ var Home = exports.Home = function (_React$Component) {
     _createClass(Home, [{
         key: 'componentWillMount',
         value: function componentWillMount() {
-            //构造partI
-
-            /*** 构造partII ***/
+            /*** 构造partI ***/
             //第一层循环
-            for (var i = 0; i < _data.data.part2.length; i++) {
+            for (var i = 0; i < _data.data.part1.length; i++) {
                 //增加头部
-                this.state.part2.push(_react2.default.createElement(
+                this.state.part1.push(_react2.default.createElement(
                     _reactWeui.CellsTitle,
                     { key: i },
-                    _data.data.part2[i].category
+                    _data.data.part1[i].category
                 ));
                 //增加子内容
                 var contents = [];
-                for (var j = 0; j < _data.data.part2[i].contents.length; j++) {
+                for (var j = 0; j < _data.data.part1[i].contents.length; j++) {
                     //显示是否写了
                     var isChecked = {};
-                    if (_data.data.part2[i].contents[j].answers && _data.data.part2[i].contents[j].answers.length > 0) {
+                    if (_data.data.part1[i].contents[j].answers && _data.data.part1[i].contents[j].answers.length > 0) {
                         isChecked = _react2.default.createElement(
                             _reactWeui.CellFooter,
                             { style: { color: "#00FF00" } },
@@ -23114,22 +23290,67 @@ var Home = exports.Home = function (_React$Component) {
                             '\u672A\u5B8C\u6210'
                         );
                     }
-                    //增加内容
                     contents.push(_react2.default.createElement(
                         _reactRouterDom.Link,
-                        { to: '/details?param=' + JSON.stringify(_data.data.part2[i].contents[j]) + '&&tab=2', className: 'weui-cell weui-cell_access' },
+                        { to: '/details?param=' + JSON.stringify(_data.data.part1[i].contents[j]) + '&&tab=1', className: 'weui-cell weui-cell_access' },
                         _react2.default.createElement(
                             _reactWeui.CellBody,
                             null,
-                            _data.data.part2[i].contents[j].question
+                            _data.data.part1[i].contents[j].question
                         ),
                         isChecked
+                    ));
+                }
+                this.state.part1.push(_react2.default.createElement(
+                    _reactWeui.Cells,
+                    null,
+                    contents
+                ));
+            }
+
+            /*** 构造partII ***/
+            //第一层循环
+            for (var _i = 0; _i < _data.data.part2.length; _i++) {
+                //增加头部
+                this.state.part2.push(_react2.default.createElement(
+                    _reactWeui.CellsTitle,
+                    { key: _i },
+                    _data.data.part2[_i].category
+                ));
+                //增加子内容
+                var _contents = [];
+                for (var _j = 0; _j < _data.data.part2[_i].contents.length; _j++) {
+                    //显示是否写了
+                    var _isChecked = {};
+                    if (_data.data.part2[_i].contents[_j].answers && _data.data.part2[_i].contents[_j].answers.length > 0) {
+                        _isChecked = _react2.default.createElement(
+                            _reactWeui.CellFooter,
+                            { style: { color: "#00FF00" } },
+                            '\u5B8C\u6210'
+                        );
+                    } else {
+                        _isChecked = _react2.default.createElement(
+                            _reactWeui.CellFooter,
+                            { style: { color: "#FF0000" } },
+                            '\u672A\u5B8C\u6210'
+                        );
+                    }
+                    //增加内容
+                    _contents.push(_react2.default.createElement(
+                        _reactRouterDom.Link,
+                        { to: '/details?param=' + JSON.stringify(_data.data.part2[_i].contents[_j]) + '&&tab=2', className: 'weui-cell weui-cell_access' },
+                        _react2.default.createElement(
+                            _reactWeui.CellBody,
+                            null,
+                            _data.data.part2[_i].contents[_j].question
+                        ),
+                        _isChecked
                     ));
                 }
                 this.state.part2.push(_react2.default.createElement(
                     _reactWeui.Cells,
                     null,
-                    contents
+                    _contents
                 ));
             }
 
@@ -23173,11 +23394,7 @@ var Home = exports.Home = function (_React$Component) {
                     _react2.default.createElement(
                         _reactWeui.Article,
                         { className: 'NoPadding', style: { display: this.state.tab === 1 ? null : 'none' } },
-                        _react2.default.createElement(
-                            _reactWeui.CellsTitle,
-                            null,
-                            'List with Icon & Link'
-                        )
+                        this.state.part1
                     ),
                     _react2.default.createElement(
                         _reactWeui.Article,
@@ -24254,6 +24471,22 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
+
+/***/ }),
+
+/***/ "slOq":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa12 = exports.qa12 = {
+    question: "12. Describe something you bought that made you happy",
+    subquestions: ["You should say:", "What it is", "Why you bought it", "How you choose it", "And explain why you think it is special"]
+};
 
 /***/ }),
 
@@ -30307,6 +30540,24 @@ var isExtraneousPopstateEvent = exports.isExtraneousPopstateEvent = function isE
 
 /***/ }),
 
+/***/ "zIr1":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa9 = exports.qa9 = {
+    question: "9. Describe an advertisement you have seen recently",
+    subquestions: ["You should say:", "when and where you saw it", "what was advertised", "what the contents of the advertisements were", "and explain how you felt about it"],
+    scratch: ["I just finished my IELTS speaking test two months ago", "a chilling morning", "An IELTS advertisement told me I could got many countries for academic purposes;", "a girl smiled at me", "I was frustrated and I became confident again"],
+    voices: ["/audios/180316_006.mp3"] //声音
+};
+
+/***/ }),
+
 /***/ "zOEp":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32643,4 +32894,4 @@ exports.default = function (self, call) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.bfc9e.js.map
+//# sourceMappingURL=bundle.c4d15.js.map

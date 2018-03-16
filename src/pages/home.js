@@ -28,7 +28,30 @@ export class Home extends React.Component{
      * 构造前执行
      */
     componentWillMount(){
-        //构造partI
+        /*** 构造partI ***/
+        //第一层循环
+        for(let i = 0; i < data.part1.length; i++){
+            //增加头部
+            this.state.part1.push(<CellsTitle key={i}>{data.part1[i].category}</CellsTitle>);
+            //增加子内容
+            let contents = [];
+            for(let j = 0; j < data.part1[i].contents.length; j++){
+                //显示是否写了
+                let isChecked = {};
+                if(data.part1[i].contents[j].answers && data.part1[i].contents[j].answers.length > 0) {
+                    isChecked = <CellFooter style={{color: "#00FF00"}}>完成</CellFooter>
+                }else{
+                    isChecked = <CellFooter style={{color: "#FF0000"}}>未完成</CellFooter>
+                }
+                contents.push(
+                    <Link to={`/details?param=${JSON.stringify(data.part1[i].contents[j])}&&tab=1`} className="weui-cell weui-cell_access">
+                        <CellBody>{ data.part1[i].contents[j].question}</CellBody>
+                        { isChecked }
+                    </Link>
+                );
+            }
+            this.state.part1.push(<Cells>{ contents }</Cells>);
+        }
 
         /*** 构造partII ***/
         //第一层循环
@@ -80,7 +103,7 @@ export class Home extends React.Component{
                 </NavBar>
                 <TabBody>
                     <Article className="NoPadding" style={{display: this.state.tab === 1 ? null : 'none'}}>
-                        <CellsTitle>List with Icon & Link</CellsTitle>
+                        { this.state.part1 }
                     </Article>
                     <Article className="NoPadding" style={{display: this.state.tab === 2 ? null : 'none'}}>
                         { this.state.part2 }

@@ -69,7 +69,7 @@ export class Details extends React.Component{
                     <Drawer title="大纲" >
                         { this.state.scratch }
                     </Drawer>
-                    <Drawer title="详细全文" defaultCollapsed>
+                    <Drawer title="详细全文" defaultCollapsed={(tab == 2)}>
                         { this.state.content }
                     </Drawer>
                     <Drawer title="音频" >
