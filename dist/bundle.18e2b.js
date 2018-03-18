@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a95864be9157dfeb75ed"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "18e2b638767aa5eb7426"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -1324,11 +1324,19 @@ exports.people = undefined;
 
 var _ = __webpack_require__("NKeB");
 
-var _2 = __webpack_require__("Cmmp");
+var _2 = __webpack_require__("M14e");
+
+var _3 = __webpack_require__("t2To");
+
+var _DescribeSomeoneWhoIsKnowledgeable = __webpack_require__("qAcC");
+
+var _4 = __webpack_require__("okgw");
+
+var _5 = __webpack_require__("Cmmp");
 
 var people = exports.people = {
     category: 'People',
-    contents: [_.qa1, _2.qa6]
+    contents: [_.qa1, _2.qa2, _3.qa3, _DescribeSomeoneWhoIsKnowledgeable.qa4, _4.qa5, _5.qa6]
 };
 
 /***/ }),
@@ -8318,6 +8326,25 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = _page2.default;
 module.exports = exports['default'];
+
+/***/ }),
+
+/***/ "M14e":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa2 = exports.qa2 = {
+    question: "2.Describe a business leader that you admire",
+    subquestions: ["You should say:", "Who this person is", "How you got to know this person", "What skills he or she has for leadership", "And explain why you think he or she is a good leader"],
+    scratch: ["A professor of bionics in MIT(He)", "From TED talks", "A strong heart and compassion", "He is the pioneer of bionic limbs and the first business man who built a company to develop this technology"],
+    answers: ["One day I saw him from TED talks, namely, from an online TV program where he wore two mechanical limbs which supported his whole body"],
+    voices: ["/audios/p2-people-2.mp3"]
+};
 
 /***/ }),
 
@@ -20446,6 +20473,25 @@ module.exports = exports['default'];
 
 /***/ }),
 
+/***/ "okgw":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa5 = exports.qa5 = {
+    question: "5.Describe a popular person you know",
+    subquestions: ["You should say:", "Who he or she is", "What he or she did", "When you first knew him or her", "And explain why do you think he or she is popular"],
+    scratch: ["Hugh Herr, a professor of bionics in MIT", "Got a phd degree and helped a ballet dancer", "in 2014, I knew him from TED talks", "A knowledgeable professor, the pioneer of bionic limbs, and an honorable man full of compassion"],
+    answers: ["He stood on his own designed mechanical limbs which supported all his body and even made him run freely just like a normal person did"],
+    voices: ["/audios/p2-people-5.mp3"]
+};
+
+/***/ }),
+
 /***/ "okne":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21647,6 +21693,25 @@ Mask.defaultProps = {
 };
 exports.default = Mask;
 module.exports = exports['default'];
+
+/***/ }),
+
+/***/ "qAcC":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa4 = exports.qa4 = {
+    question: "4.Describe someone who is knowledgeable",
+    subquestions: ["You should say:", "Who the person is", "What kind of person he/she is", "What the person did", "And explain why you think the person is knowledgeable"],
+    scratch: ["Hugh Herr, a professor of bionics in MIT", "He has a strong heart and is a honorable man full of compassion", "lost his legs but not quited", "helped a ballet dancer", "he is pioneer of bionic limbs"],
+    answers: ["So, can't I call him knowledgeable?"],
+    voices: ["/audios/p2-people-4.mp3"]
+};
 
 /***/ }),
 
@@ -23077,6 +23142,25 @@ StaticRouter.childContextTypes = {
 
 
 /* harmony default export */ __webpack_exports__["a"] = (StaticRouter);
+
+/***/ }),
+
+/***/ "t2To":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa3 = exports.qa3 = {
+    question: "3. Describe a person from another country",
+    subquestions: ["You should say:", "Who this person is", "How you know this person", "What this person do", "And explain why you like this person"],
+    scratch: ["Hugh Herr, a professor of bionics in MIT", "From TED talks", "study bionic limbs and even helped a ballet dancer who lost her leg in Bosten terrorist attack", "He is a tough man, he lost his legs"],
+    answers: ["He stood on this own designed bionic limbs which supported his all body fully and even made him run as normal human did"],
+    voices: ["/audios/p2-people-3.mp3"]
+};
 
 /***/ }),
 
@@ -43161,4 +43245,4 @@ exports.default = function (self, call) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.a9586.js.map
+//# sourceMappingURL=bundle.18e2b.js.map
