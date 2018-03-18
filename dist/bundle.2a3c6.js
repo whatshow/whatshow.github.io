@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "18e2b638767aa5eb7426"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2a3c60a00eb4e5af3d30"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -1292,13 +1292,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.event = undefined;
 
-var _ = __webpack_require__("jffZ");
+var _ = __webpack_require__("f+kV");
 
-var _2 = __webpack_require__("f4Tj");
+var _2 = __webpack_require__("0ZV0");
+
+var _3 = __webpack_require__("jffZ");
+
+var _4 = __webpack_require__("f4Tj");
+
+var _5 = __webpack_require__("SPhd");
 
 var event = exports.event = {
     category: 'Event',
-    contents: [_.qa9, _2.qa10]
+    contents: [_.qa7, _2.qa8, _3.qa9, _4.qa10, _5.qa13]
 };
 
 /***/ }),
@@ -1805,6 +1811,25 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
     return targetComponent;
 };
 
+
+/***/ }),
+
+/***/ "0ZV0":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa8 = exports.qa8 = {
+    question: "8.Describe something you enjoy doing with an old person in your family",
+    subquesions: ["You should say:", "What it is", "How often you do it", "Who you do it with", "Why you enjoy doing it with this person"],
+    scratch: ["setting fireworks with my grandpa", "once a year", "my grandpa is a good choice to set fireworks with him", "he gives me courage"],
+    answers: ["setting fireworks with my grandpa, an old worker who is so strong that he can still lift me although he is over 80"],
+    voices: ["/audios/p2-object-8.mp3"]
+};
 
 /***/ }),
 
@@ -8855,6 +8880,25 @@ if (process.env.NODE_ENV === 'production') {
 
 /***/ }),
 
+/***/ "O3QC":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa2 = exports.qa2 = {
+    question: "2. Describe a TV program that you like watching",
+    subquestions: ["You should say：", "What the TV program is", "How you know it", "What it is like", "Why you like it"],
+    scratch: ["an online TV program which is called TED talks", "I participated in a IELTS class, teacher told me", "TED talks are about ideas worth spreading", "for example, I know Hugh Herr from it", "inspire me"],
+    answers: ["it gave me a chance to know a MIT professor who lost his legs in 1982 but had an electronic phd although he was an mountain climbing athlete, I mean he had no background"],
+    voices: ["/audios/p2-object-2.mp3"]
+};
+
+/***/ }),
+
 /***/ "O4R0":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11205,6 +11249,25 @@ var qa6 = exports.qa6 = {
     question: "6. Describe a public park or garden",
     subquestions: ["You should say:", "Where it is", "What it looks like", "What you do there", "How you feel about it"],
     answers: ["I want to talk about the HuangPu park in ShangHai", "It goes through ShangHai and lies in the estuary of ChangJiang", "So it is the biggest park in ShangHai", "The pubic park is very unique because it is divided into 2 parts by HuangPu River, a branch of ChangJiangRiver", "So the only to get to another part is by ferry", "You see the park is so big that it takes about 20 square kilometers", "That's the biggest place for citizens to relax", "You know, I often go to that park for relax", "cause you can hear the bird chirping, look at waves or even jogging along the bank", "It is so stress-relieve", "Also, there are some restaurants along the park", "So I can supply energy whenever I am exhausted", "The park is so fascinating that I even go to that park twice a month", "If I go back to ShangHai, I will visit the park as soon as possible and that's all"]
+};
+
+/***/ }),
+
+/***/ "SPhd":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa13 = exports.qa13 = {
+    question: "13. Describe an activity you do to keep fit ",
+    subquestions: ["You should say:", "What you do", "When, where you usually do it", "How you do it", "And explain why it can keep you fit"],
+    scratch: ["swimming", "4 times a week in a health club", "I prefer breast stroke", "it can strengthen my whole muscles of my body"],
+    answers: ["I go swimming 4 times a week in the afternoon when I have energy and there is just a health club which has a big swimming pool and is not far from my home"],
+    voices: ["/audios/p2-object-13.mp3"]
 };
 
 /***/ }),
@@ -15939,6 +16002,25 @@ $export($export.S, 'Object', { setPrototypeOf: __webpack_require__("ZaQb").set }
 
 /***/ }),
 
+/***/ "f+kV":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var qa7 = exports.qa7 = {
+    question: "7. Describe a memorable story told by someone",
+    subquestions: ["You should say:", "What it is", "Who told you about it", "When he/she told you", "And explain why it was impressive/how you felt about it"],
+    scratch: ["A story of Hugh Herr", "He lost his legs in 1982, but he didn't quit", "I heard the story from TED talks", "it inspired me"],
+    answers: ["he adjusted his artificial limbs to achieve different heights and studied electronics which he had no background of it because he used to be an athlete"],
+    voices: ["/audios/p2-object-7.mp3"]
+};
+
+/***/ }),
+
 /***/ "f2RQ":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16625,25 +16707,27 @@ exports.object = undefined;
 
 var _ = __webpack_require__("qzgY");
 
-var _2 = __webpack_require__("Pc0B");
+var _2 = __webpack_require__("O3QC");
 
-var _3 = __webpack_require__("CYcU");
+var _3 = __webpack_require__("Pc0B");
 
-var _4 = __webpack_require__("Ko8B");
+var _4 = __webpack_require__("CYcU");
 
-var _5 = __webpack_require__("cK45");
+var _5 = __webpack_require__("Ko8B");
 
-var _6 = __webpack_require__("zIr1");
+var _6 = __webpack_require__("cK45");
 
-var _7 = __webpack_require__("dZLt");
+var _7 = __webpack_require__("zIr1");
+
+var _8 = __webpack_require__("dZLt");
 
 var _DescribeAnExcitingBookYouHaveRead = __webpack_require__("QSgu");
 
-var _8 = __webpack_require__("slOq");
+var _9 = __webpack_require__("slOq");
 
 var object = exports.object = {
     category: 'Object',
-    contents: [_.qa1, _2.qa3, _3.qa4, _4.qa5, _5.qa6, _6.qa9, _7.qa10, _DescribeAnExcitingBookYouHaveRead.qa11, _8.qa12]
+    contents: [_.qa1, _2.qa2, _3.qa3, _4.qa4, _5.qa5, _6.qa6, _7.qa9, _8.qa10, _DescribeAnExcitingBookYouHaveRead.qa11, _9.qa12]
 };
 
 /***/ }),
@@ -43245,4 +43329,4 @@ exports.default = function (self, call) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.18e2b.js.map
+//# sourceMappingURL=bundle.2a3c6.js.map
