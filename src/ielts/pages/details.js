@@ -60,7 +60,7 @@ export class Details extends React.Component{
         let tab = this.getUrlParms("tab");
         return (
             <div>
-                <Link to={`/ielts?tab=${tab}`} className="navbar-back">返回</Link>
+                <Link to={`/?tab=${tab}`} className="navbar-back">返回</Link>
                 <Article>
                     <h3 style={{backgroundColor: "#FFFF00"}}>{ this.state.title }</h3>
                     <hr/>

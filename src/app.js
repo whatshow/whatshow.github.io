@@ -24,8 +24,8 @@ export class App extends React.Component{
         return(
             <BrowserRouter>
                 <div>
-                    <Route exact path="/ielts" component={Home}/>
-                    <Route path="/ielts/details" component={Details}/>
+                    <Route exact path="/" component={Home}/>
+                    <Route path="/details" component={Details}/>
                 </div>
             </BrowserRouter>
         );

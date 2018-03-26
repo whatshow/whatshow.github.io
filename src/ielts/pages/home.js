@@ -44,7 +44,7 @@ export class Home extends React.Component{
                     isChecked = <CellFooter style={{color: "#FF0000"}}>未完成</CellFooter>
                 }
                 contents.push(
-                    <Link to={`/ielts/details?param=${JSON.stringify(data.part1[i].contents[j])}&&tab=1`} className="weui-cell weui-cell_access">
+                    <Link to={`/details?param=${JSON.stringify(data.part1[i].contents[j])}&&tab=1`} className="weui-cell weui-cell_access">
                         <CellBody>{ data.part1[i].contents[j].question}</CellBody>
                         { isChecked }
                     </Link>
@@ -70,7 +70,7 @@ export class Home extends React.Component{
                 }
                 //增加内容
                 contents.push(
-                    <Link to={`/ielts/details?param=${JSON.stringify(data.part2[i].contents[j])}&&tab=2`} className="weui-cell weui-cell_access">
+                    <Link to={`/details?param=${JSON.stringify(data.part2[i].contents[j])}&&tab=2`} className="weui-cell weui-cell_access">
                         <CellBody>{ data.part2[i].contents[j].question}</CellBody>
                         { isChecked }
                     </Link>
