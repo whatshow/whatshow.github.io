@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 /*** 不同页面 ***/
-import { Home, Details } from './pages';
+import { Home, Details } from './ielts/pages';
 
 export class App extends React.Component{
     /**
@@ -24,8 +24,8 @@ export class App extends React.Component{
         return(
             <BrowserRouter>
                 <div>
-                    <Route exact path="/" component={Home}/>
-                    <Route path="/details" component={Details}/>
+                    <Route exact path="/ielts" component={Home}/>
+                    <Route path="/ielts/details" component={Details}/>
                 </div>
             </BrowserRouter>
         );

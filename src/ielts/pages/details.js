@@ -3,7 +3,7 @@ import { browserHistory, Link } from 'react-router-dom';
 import { Article } from "react-weui"
 
 //引入组件
-import { Drawer } from '../components/drawer';
+import { Drawer } from '../../components/drawer';
 
 export class Details extends React.Component{
     constructor(props){
@@ -60,7 +60,7 @@ export class Details extends React.Component{
         let tab = this.getUrlParms("tab");
         return (
             <div>
-                <Link to={`/?tab=${tab}`} className="navbar-back">返回</Link>
+                <Link to={`/ielts?tab=${tab}`} className="navbar-back">返回</Link>
                 <Article>
                     <h3 style={{backgroundColor: "#FFFF00"}}>{ this.state.title }</h3>
                     <hr/>
