@@ -13,7 +13,8 @@ export class Details extends React.Component{
             subtitles: [],
             content: [],
             scratch: [],
-            audios: []
+            audios: [],
+            p3subqs: []
         };
     }
 
@@ -50,6 +51,33 @@ export class Details extends React.Component{
                     );
                 }
             }
+            if(param && param.p3subqs && param.p3subqs.length > 0){
+                param.p3subqs.forEach((item, index)=>{
+                    let question = <p key={`details-q${index}`} style={{ fontWeight:"bold" }}>{ item.q }</p>;
+                    //增加文字
+                    let text = [];
+                    item.a.forEach((a, i)=>{
+                        text.push(<p key={`details-a${i}`} className="LeftMarginButNotTheFirst">{ a }</p>);
+                    });
+                    //增加音频
+                    let audio = [];
+                    item.v.forEach((v, i)=>{
+                        audio.push(
+                            <div>
+                                { i + 1 }.
+                                <audio src={v} controls="controls"/>
+                            </div>
+                        );
+                    });
+                    this.state.p3subqs.push(
+                        <Drawer title={index + 1} noClick>
+                            { question }
+                            { text }
+                            { audio }
+                        </Drawer>
+                    );
+                })
+            }
         }
         this.forceUpdate();
 
@@ -75,6 +103,9 @@ export class Details extends React.Component{
                     <Drawer title="音频" noClick>
                         { this.state.audios }
                     </Drawer>
+                    {
+                        this.state.p3subqs
+                    }
                 </Article>
             </div>
         );

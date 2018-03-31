@@ -79,7 +79,26 @@ export class Home extends React.Component{
             this.state.part2.push(<Cells>{ contents }</Cells>);
         }
 
-        //构造partIII
+        /*** 构造partIII ***/
+        //第一层循环
+        for(let i = 0; i < data.part3.length; i++){
+            //增加头部
+            this.state.part3.push(<CellsTitle key={i}>{data.part3[i].category}</CellsTitle>);
+            //增加子内容
+            let contents = [];
+            for(let j = 0; j < data.part3[i].contents.length; j++){
+                //显示是否写了
+                let isChecked = <CellFooter style={{color: "#00FF00"}}>完成</CellFooter>;
+                //增加内容
+                contents.push(
+                    <Link to={`/details?param=${JSON.stringify(data.part3[i].contents[j])}&&tab=3`} className="weui-cell weui-cell_access">
+                        <CellBody>{ data.part3[i].contents[j].question}</CellBody>
+                        { isChecked }
+                    </Link>
+                );
+            }
+            this.state.part3.push(<Cells>{ contents }</Cells>);
+        }
 
         //激活标签
         let tab = this.getUrlParms("tab");
@@ -109,7 +128,7 @@ export class Home extends React.Component{
                         { this.state.part2 }
                     </Article>
                     <Article className="NoPadding" style={{display: this.state.tab === 3 ? null : 'none'}}>
-                        <h1>Page 3</h1>
+                        { this.state.part3 }
                     </Article>
                 </TabBody>
             </Tab>
