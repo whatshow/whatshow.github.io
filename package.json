@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/whatshow/whatshow.github.io/issues"
   },
-  "homepage": "https://github.com/whatshow/whatshow.github.io#readme",
+  "homepage": "https://whatshow.github.io/",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "antd": "^4.19.2",
