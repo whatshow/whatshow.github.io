@@ -10,14 +10,13 @@ import { CopyrightOutlined } from '@ant-design/icons';
 import moment  from 'moment';
 
 // css
-import "./skynetfooter.less";
+import "./unifooter.less";
 
-export class SkyNetFooter extends React.Component{
+export class UniFooter extends React.Component{
     render(){
         return(
-            <Footer className='skynetfooter'>
-                <p className='declare'>Copyright <CopyrightOutlined /> 2003-{moment().format('YYYY')}&nbsp;<FormattedMessage id="footer_company_name"/>
-                </p>
+            <Footer className='uni-footer'>
+                <p className='declare'>Copyright <CopyrightOutlined /> 2003-{moment().format('YYYY')}</p>
             </Footer>
         );
     }

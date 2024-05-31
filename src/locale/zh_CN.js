@@ -28,39 +28,5 @@ const zh_CN = {
     main_service_6_name: "隐私策略",
     main_service_6_intro: "我们不会搜集或保存您的任何信息，您的隐私会被保护",
 
-    // login
-    login_name: "登录",
-    login_email: "邮箱",
-    login_email_hint: "请输入您的邮箱",
-    login_pwd: "密码",
-    login_pwd_hnt: "请输入您的密码",
-    login_keep: "保持登录",
-    login_forget_pwd: "忘记密码",
-    login_btn: "登录",
-
-    // register
-    register_name: "注册",
-    register_email: "邮箱",
-    register_email_declare_l1: "我们不会验证您的邮箱",
-    register_email_declare_l2: "设置邮箱只是为了方便找回密码",
-    register_email_hint_empyty: "请输入您的邮箱",
-    register_email_hint_wrong: "邮箱格式错误",
-    register_pwd: "密码",
-    register_pwd_hnt: "请输入您的密码",
-    register_pwd_again: "确认密码",
-    register_pwd_again_hnt_empty: "请再次输入您的密码",
-    register_pwd_again_hnt_wrong: "两次密码不一致",
-    register_question: "安全问题",
-    register_question_hint: "没有设置安全问题，只能通过邮箱找回密码",
-    register_answer: "答案",
-    register_answer_hint: "请输入答案",
-    register_verify: "验证码",
-    register_verify_hint_empty: "请输入验证码",
-    register_verify_hint_wrong: "错误验证码",
-    register_btn: "注册",
-
-    // footer
-    footer_company_name: '天际网络',
-    footer_company_address: '甘肃省兰州市城关区天庆大道588号 邮政编码: 730013' 
 };
 export default zh_CN;

@@ -28,39 +28,5 @@ const en_US = {
     main_service_6_name: "Privacy Policy",
     main_service_6_intro: "We will not collect or store any information from you. Your privacy is protected",
 
-    // login
-    login_name: "Login",
-    login_email: "Email",
-    login_email_hint: "Please input your email",
-    login_pwd: "Password",
-    login_pwd_hnt: "Please input your password",
-    login_keep: "Keep me logged in",
-    login_forget_pwd: "Forgot password",
-    login_btn: "Login",
-
-    // register
-    register_name: "Register",
-    register_email: "Email",
-    register_email_declare_l1: "We won't validate your email",
-    register_email_declare_l2: "Email is only used to retrieve your password",
-    register_email_hint_empyty: "Please input your email",
-    register_email_hint_wrong: "Email invalid format",
-    register_pwd: "Password",
-    register_pwd_hnt: "Please input your password",
-    register_pwd_again: "Confirm password",
-    register_pwd_again_hnt_empty: "Please confirm your password",
-    register_pwd_again_hnt_wrong: "The two passwords that you entered do not match",
-    register_question: "Security question",
-    register_question_hint: "You can only retrieve your password through email without any security question",
-    register_answer: "Answer",
-    register_answer_hint: "Please input your answer",
-    register_verify: "Verification code",
-    register_verify_hint_empty: "Please input the verification code",
-    register_verify_hint_wrong: "Invalid verification code",
-    register_btn: "Register",
-
-    // footer
-    footer_company_name: 'SKYNET',
-    footer_company_address: '588 Tianqing Blvd, Chengguan District, Lanzhou, Lanzhou, Gansu, China, 730013' 
 };
 export default en_US;

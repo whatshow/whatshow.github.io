@@ -11,7 +11,7 @@ import { Carousel } from 'antd';
 import { SnippetsTwoTone, WarningTwoTone, ApiTwoTone, EditTwoTone, MailTwoTone, LockTwoTone } from '@ant-design/icons';
 
 // components
-import { SkyNetFooter } from "../../components/skynetfooter/skynetfooter";
+import { UniFooter } from "../../components/unifooter/unifooter";
 
 // 引入样式
 import "./main.less";
@@ -110,7 +110,7 @@ export class Main extends React.Component{
                         </div>
                     </div>
                 </Content>
-                <SkyNetFooter/>
+                <UniFooter/>
             </>
         );
     }
