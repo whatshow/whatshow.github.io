@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import "../../theme.less";
+
+.account-container{
+    background-color: #FFF;
+    height: 100%;
+    width: 100%;
+    padding-top: 60px;
+}
+
+// 登录框
+.account-container .Form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 24px;
+    list-style: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+}
+.account-container .Form .Title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 36px;
+    margin: 0;
+}
+
+.account-container .Form .ForgetPwd{
+    float:right;
+}
+.account-container .Form .Verify{
+    float: left;
+    .calc(width, "100% - 100px");
+}
+.account-container .Form .Verify-img{
+    float: right;
+    margin-top: 30px;
+}
+.account-container .Form .Btn-Submit{
+    width: 100%;
+} 
+
+
+// 注册确认对话框
+.Account-Register-Dialog-Title{
+    font-weight: 700;
+    line-height: 30px; 
+}
+.Account-Register-Dialog-Title .Icon{
+    color: @color-warning;
+    margin-right: 20px;
+    font-size: 22px;
+    line-height: 30px; 
+    vertical-align: middle;
+}

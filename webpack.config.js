@@ -83,7 +83,7 @@ module.exports = {
           },
         ],
       }),
-      // 忽略 moment.js的所有本地文件 (https://webpack.js.org/plugins/ignore-plugin/)
+      // 忽略 moment.js的语言文件 (https://webpack.js.org/plugins/ignore-plugin/)
       new webpack.IgnorePlugin({
         resourceRegExp: /^\.\/locale$/,
         contextRegExp: /moment$/,
