@@ -14,8 +14,6 @@ import { UniHeader } from "./components/uniheader/uniheader"
 
 // pages
 import { Main } from './pages/main/main';
-import { Center } from './pages/center/center';
-import { Login, Register, Forget } from "./pages/account";
 
 export class App extends React.Component{
     constructor(props){
@@ -74,10 +72,6 @@ export class App extends React.Component{
                             <div className='routers-container'>
                                 <Routes>
                                     <Route exact path="/"       element={ <Main/> } />
-                                    <Route path="/center"       element={ <Center/>} />
-                                    <Route path="/login"        element={ <Login lang={this.state.selected_lang_obj}/> }/>
-                                    <Route path="/register"     element={ <Register lang={this.state.selected_lang_obj}/> }/>
-                                    <Route path="/forget"       element={<Forget lang={this.state.selected_lang_obj}/>}/>
                                 </Routes>
                             </div>
                         </Layout>
