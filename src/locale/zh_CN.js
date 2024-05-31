@@ -7,12 +7,15 @@ const zh_CN = {
     // main
     main_intro_name: "大麦克",
     main_intro_title: "云服务提供商, 通信工程师, 科学家",
-    main_intro: "尊敬的用户，欢迎您访问我的博客。我可以提供网站开发等云平台服务。在成果展示中，我提供了一些例子供您参考。如果您想联系我，请发邮件到",
+    main_intro: "尊敬的用户，欢迎您访问我的博客。我可以提供网站开发等云平台服务。在成果展示中，我提供了一些例子供您参考。",
+    main_contri: "代码仓库",
+    main_contri_phy: "物理层模拟工具箱",
+    main_contri_phy_01: "OTFS工具箱",
+    main_contri_phy_02: "BPIC信号解析工具箱",
+    main_contri_phy_03: "EP信号解析工具箱",
+    main_contri_civ: "文明mod库",
+    main_contri_civ_01: "文明6风云人物包",
     main_pub: "论文发表",
-    main_pub_01: "基于贝叶斯的非训练神经网络信号的OTFS信号检测器",
-    main_pub_02: "正交时空域的基于贝叶斯神经网络的信号检测器",
-    main_pub_03: "在802.11ah中使用浅神经网络提升吟游诗人算法",
-    main_pub_04: "正交时空域的基于贝叶斯的信号检测器",
 
 
     // demos

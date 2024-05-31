@@ -34,6 +34,11 @@
             font-family: sans-serif;
             li{
                 list-style: none;
+                svg{
+                    position: relative;
+                    top: 0.15em;
+                    margin-right: 5px;
+                }
                 h1{
                     font-size: 2.5em;
                     font-weight: bold; 
@@ -45,8 +50,18 @@
                 }
             }
         }
-        .Block{
+        .Title{
             display: block;
+            padding-top: 24px;
+            border-bottom: 1px solid #bfbfbf;
+            font-size: 24px;
+            font-weight: bold; 
+        }
+        .Content{
+            li{
+                font-size: 16px;
+                font-weight: normal;
+            }
         }
     }
     .Right{
