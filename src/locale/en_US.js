@@ -5,7 +5,14 @@ const en_US = {
     header_menu_2: 'Demos',
 
     // main
-    
+    main_intro_name: "Michael",
+    main_intro_title: "Cloud service provider, Communication Engineer, Researcher",
+    main_intro: "Dear visitor, welcome to my blog. Here I offer the cloud service solution to boost your buiness. In demos, I offer some examples to view. If you want to contact me, please email ",
+    main_pub: "Publications",
+    main_pub_01: "Untrained Neural Network based Bayesian Detector for OTFS Modulation Systems",
+    main_pub_02: "Bayesian Neural Network Detector for an Orthogonal Time Frequency Space Modulation",
+    main_pub_03: "Improving The Minstrel Rate Adaptation Algorithm using Shallow Neural Networks in IEEE 802.11ah",
+    main_pub_04: "Bayesian-based Symbol Detector for Orthogonal Time Frequency Space Modulation Systems",
 
     // demos
     demos_menu_01: "Travel Blog", 

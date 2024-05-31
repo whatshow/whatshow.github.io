@@ -14,7 +14,8 @@ import { UniHeader } from "./components/uniheader/uniheader"
 
 // pages
 import { Main } from './pages/main/main';
-import { Demos } from './pages/demos/demos';
+import { Demo01 } from './pages/demos/demo01';
+
 
 export class App extends React.Component{
     constructor(props){
@@ -69,11 +70,11 @@ export class App extends React.Component{
                 <BrowserView className='view-port-body'>
                     <Router>
                         <Layout className='view-port-body'>
-                            <UniHeader isLogin={this.state.isLogin} />
+                            <UniHeader/>
                             <div className='routers-container'>
                                 <Routes>
                                     <Route exact path="/"       element={ <Main/> } />
-                                    <Route exact path="/demos"  element={ <Demos/> } />
+                                    <Route exact path="/demo01"  element={ <Demo01/> } />
                                 </Routes>
                             </div>
                         </Layout>

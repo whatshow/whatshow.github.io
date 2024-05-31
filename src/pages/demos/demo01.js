@@ -28,7 +28,7 @@ export class Demo01 extends React.Component{
                                 <FormattedMessage id="demo_01_blogger_subtitle"/>
                             </div>
                         </div>
-                        <Carousel autoplay className='fuck'>
+                        <Carousel autoplay>
                             <div className='Carousel-Indicator'>
                                 <div className='Image Image-1'/>
                             </div>
