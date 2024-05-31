@@ -29,7 +29,8 @@ module.exports = {
     entry: path.join(__dirname, "src", "index.js"),
     //entry: ['./src/index.js'],
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        //path: path.resolve(__dirname, 'dist'),
+        path: __dirname,
         //filename: 'bundle.[hash:5].js'
         filename: 'bundle.js'
     },

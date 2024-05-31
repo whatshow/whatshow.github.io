@@ -73,7 +73,7 @@ let prod = {
         ]
     },
     plugins:[
-        new CleanWebpackPlugin(),       // 预先清理dist文件夹
+        //new CleanWebpackPlugin(),       // 预先清理dist文件夹
         // 单独打包css文件
         new MiniCssExtractPlugin({
             filename: '[name].[hash:5].min.css',
