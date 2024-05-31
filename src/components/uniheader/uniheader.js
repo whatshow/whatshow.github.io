@@ -9,8 +9,6 @@ import { Layout, Menu} from 'antd';
 const { Header} = Layout;
 // antd-icon
 import { DingdingOutlined, HomeFilled, DropboxOutlined } from '@ant-design/icons';
-// antd-button
-import { Button } from 'antd';
 // utils
 import { isObjEmpty } from '../../utils/commonfns';
 

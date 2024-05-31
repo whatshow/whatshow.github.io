@@ -28,5 +28,7 @@ const zh_CN = {
     main_service_6_name: "隐私策略",
     main_service_6_intro: "我们不会搜集或保存您的任何信息，您的隐私会被保护",
 
+    // demos
+    demos_menu_01: "旅行博客", 
 };
 export default zh_CN;

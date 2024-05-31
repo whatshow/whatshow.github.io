@@ -28,5 +28,7 @@ const en_US = {
     main_service_6_name: "Privacy Policy",
     main_service_6_intro: "We will not collect or store any information from you. Your privacy is protected",
 
+    // demos
+    demos_menu_01: "Travel Blog", 
 };
 export default en_US;

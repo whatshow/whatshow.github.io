@@ -14,6 +14,7 @@ import { UniHeader } from "./components/uniheader/uniheader"
 
 // pages
 import { Main } from './pages/main/main';
+import { Demos } from './pages/demos/demos';
 
 export class App extends React.Component{
     constructor(props){
@@ -72,6 +73,7 @@ export class App extends React.Component{
                             <div className='routers-container'>
                                 <Routes>
                                     <Route exact path="/"       element={ <Main/> } />
+                                    <Route exact path="/demos"  element={ <Demos/> } />
                                 </Routes>
                             </div>
                         </Layout>
