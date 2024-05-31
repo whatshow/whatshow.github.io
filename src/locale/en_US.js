@@ -1,11 +1,8 @@
 const en_US = {
     // header
-    header_company_name: 'SkyNet',
-    header_menu_home: 'Home',
-    header_menu_center: 'Dashboard',
-    header_menu_account: 'Account',
-    header_btn_login: "Login",
-    header_btn_register: "Register",
+    header_name: 'Blog',
+    header_menu_1: 'Home',
+    header_menu_2: 'Demos',
 
     // main
     main_blogger_title: "Vloggers",

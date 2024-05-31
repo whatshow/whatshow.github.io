@@ -1,11 +1,8 @@
 const zh_CN = {
     // header
-    header_company_name: '天际网络',
-    header_menu_home: '首页',
-    header_menu_center: '个人中心',
-    header_menu_account: '我的账户',
-    header_btn_login: "登录",
-    header_btn_register: "注册",
+    header_name: '博客',
+    header_menu_1: '首页',
+    header_menu_2: '成果展示',
 
     // main
     main_blogger_title: "视频博主",

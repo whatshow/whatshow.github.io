@@ -10,7 +10,7 @@ import { Layout} from 'antd';
 const { Content } = Layout;
 
 // components
-import { SkyNetHeader } from "./components/skynetheader/skynetheader"
+import { UniHeader } from "./components/uniheader/uniheader"
 
 // pages
 import { Main } from './pages/main/main';
@@ -70,7 +70,7 @@ export class App extends React.Component{
                 <BrowserView className='view-port-body'>
                     <Router>
                         <Layout className='view-port-body'>
-                            <SkyNetHeader isLogin={this.state.isLogin} />
+                            <UniHeader isLogin={this.state.isLogin} />
                             <div className='routers-container'>
                                 <Routes>
                                     <Route exact path="/"       element={ <Main/> } />
