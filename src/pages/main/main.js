@@ -70,7 +70,7 @@ export class Main extends React.Component{
                             </ul>
                         </div>
                         <div className='Right'>
-                            <a><UniLinkedIn className="Img"/> <span className='Txt'><FormattedMessage id='main_right_txt_01'/></span></a>
+                            <a href="https://www.linkedin.com/in/xwq" target="_blank"><UniLinkedIn className="Img"/> <span className='Txt'><FormattedMessage id='main_right_txt_01'/></span></a>
                         </div>
                     </div>
                 </Content>
