@@ -8,6 +8,7 @@ const en_US = {
     main_intro_name: "Michael",
     main_intro_title: "Cloud service provider, Communication Engineer, Researcher",
     main_intro: "Dear visitor, welcome to my blog. Here I offer the cloud service solution to boost your buiness. In demos, I offer some examples to view.",
+    main_loc: "Centre for IoT & Telecoms, USYD, SYD, AU",
     main_contri: "REPOSITORIES",
     main_contri_phy: "The physical layer simulation toolboxes",
     main_contri_phy_01: "OTFS toolbox",
@@ -15,7 +16,10 @@ const en_US = {
     main_contri_phy_03: "EP symbol detecton toolbox",
     main_contri_civ: "Sid Meier's Civilization Mod",
     main_contri_civ_01: "CIV6 MOD Influencer",
+    main_contri_others: "Others",
+    main_contri_others_01: "Toolbox across platforms",
     main_pub: "PUBLICATIONS",
+    main_right_txt_01: "My LinkedIn",
 
     // demos
     demos_menu_01: "Travel Blog", 

@@ -1,2 +1,3 @@
 import {UniIconMail} from './uni-icon-mail';
-export {UniIconMail};
+import {UniLinkedIn} from './uni-icon-linkedin';
+export {UniIconMail, UniLinkedIn};

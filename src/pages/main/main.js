@@ -4,10 +4,12 @@ import {FormattedMessage} from 'react-intl'
 // antd-layout
 import { Layout} from 'antd';
 const { Content } = Layout;
+// antd-icon
+import { MailOutlined, EnvironmentOutlined } from '@ant-design/icons';
 
 // components
 import { UniFooter } from "../../components/unifooter/unifooter";
-import { UniIconMail } from "../../components/uni-icons"
+import { UniLinkedIn } from "../../components/uni-icons"
 
 // 引入样式
 import "./main.less";
@@ -24,7 +26,14 @@ export class Main extends React.Component{
                                 <li><h1><FormattedMessage id='main_intro_name'/></h1></li>
                                 <li><h3 className='Titles'><FormattedMessage id='main_intro_title'/></h3></li>
                                 <li><FormattedMessage id='main_intro'/></li>
-                                <li style={{marginTop:24}}><UniIconMail/><a href="mailto:wfwfpwefe2323@gmail.com">wfwfpwefe2323@gmail.com</a></li>
+                                <li style={{marginTop:24}}>
+                                    <MailOutlined className='Details-Img'/>
+                                    <a href="mailto:wfwfpwefe2323@gmail.com">wfwfpwefe2323@gmail.com</a>
+                                    </li>
+                                <li>
+                                    <EnvironmentOutlined className='Details-Img'/>
+                                    <FormattedMessage id='main_loc'/>
+                                </li>
                             </ul>
                             
 
@@ -44,6 +53,11 @@ export class Main extends React.Component{
                                         <li><a href="https://github.com/whatshow/CIV6_MOD_Influncer" target="_blank"><FormattedMessage id='main_contri_civ_01'/></a></li>
                                     </ul>
                                 </li>
+                                <li><FormattedMessage id='main_contri_others'/>
+                                    <ul>
+                                        <li><a href="https://github.com/whatshow/Toolbox" target="_blank"><FormattedMessage id='main_contri_others_01'/></a></li>
+                                    </ul>
+                                </li>
                             </ul>
                             <div className='Title'>
                                 <FormattedMessage id='main_pub'/>
@@ -55,7 +69,9 @@ export class Main extends React.Component{
                                 <li>Qu, X., Kosasih, A., Hardjawana, W., Onasis, V., & Vucetic, B. (2021, September). <a target="_blank" href="https://ieeexplore.ieee.org/document/9569353">Bayesian-based symbol detector for orthogonal time frequency space modulation systems</a>. In <i>2021 IEEE 32nd Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)</i> (pp. 1154-1159). IEEE.</li>
                             </ul>
                         </div>
-                        <div className='Right'>right</div>
+                        <div className='Right'>
+                            <a><UniLinkedIn className="Img"/> <span className='Txt'><FormattedMessage id='main_right_txt_01'/></span></a>
+                        </div>
                     </div>
                 </Content>
                 <UniFooter/>

@@ -5,9 +5,10 @@ const zh_CN = {
     header_menu_2: '成果展示',
 
     // main
-    main_intro_name: "大麦克",
+    main_intro_name: "麦克",
     main_intro_title: "云服务提供商, 通信工程师, 科学家",
     main_intro: "尊敬的用户，欢迎您访问我的博客。我可以提供网站开发等云平台服务。在成果展示中，我提供了一些例子供您参考。",
+    main_loc: "澳大利亚，悉尼大学，IoT与通信研究中心",
     main_contri: "代码仓库",
     main_contri_phy: "物理层模拟工具箱",
     main_contri_phy_01: "OTFS工具箱",
@@ -15,8 +16,10 @@ const zh_CN = {
     main_contri_phy_03: "EP信号解析工具箱",
     main_contri_civ: "文明mod库",
     main_contri_civ_01: "文明6风云人物包",
+    main_contri_others: "其他",
+    main_contri_others_01: "跨平台工具箱",
     main_pub: "论文发表",
-
+    main_right_txt_01: "我的领英",
 
     // demos
     demos_menu_01: "旅行博客", 

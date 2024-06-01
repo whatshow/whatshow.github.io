@@ -7,11 +7,9 @@ import { all_langs_codes, all_langs_pkg} from './locale';  // 导入语言包
 // antd
 // antd-layout
 import { Layout} from 'antd';
-const { Content } = Layout;
 
 // components
 import { UniHeader } from "./components/uniheader/uniheader"
-
 // pages
 import { Main } from './pages/main/main';
 import { Demo01 } from './pages/demos/demo01';
