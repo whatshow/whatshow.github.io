@@ -2,16 +2,26 @@ import React from 'react';
 import {BrowserView, MobileView} from 'react-device-detect';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 // react-intl 支持多语言
-import {IntlProvider} from 'react-intl'
+import {IntlProvider, FormattedMessage} from 'react-intl'
 import { all_langs_codes, all_langs_pkg} from './locale';  // 导入语言包
 // antd
 // antd-layout
 import { Layout} from 'antd';
+// antd-icon
+import { HomeFilled, DropboxOutlined, DockerOutlined } from '@ant-design/icons';
+// weui
+import { Tab, TabBarItem } from 'react-weui';
+//import styles
+import 'weui';
+import 'react-weui/build/packages/react-weui.css';
+
 
 // components
 import { UniHeader } from "./components/uniheader/uniheader"
 // pages
 import { Main } from './pages/main/main';
+import { MainMobile } from './pages/main/main-mobile';
+import { DemosMobile } from './pages/demos/demos-mobile';
 import { Demo01 } from './pages/demos/demo01';
 
 
@@ -79,7 +89,14 @@ export class App extends React.Component{
                     </Router>
                 </BrowserView>
                 <MobileView>
-                    <h1>This is rendered only on mobile</h1>
+                    <Tab type="tabbar" className="Mob-Tab">
+                        <TabBarItem  label={<FormattedMessage id="header_menu_1"/>} icon={<HomeFilled className='TabbarItemImg'/>}>
+                            <MainMobile/>
+                        </TabBarItem>
+                        <TabBarItem  label={<FormattedMessage id="header_menu_2"/>} icon={<DropboxOutlined className='TabbarItemImg'/>}>
+                            <DemosMobile/>
+                        </TabBarItem>
+                    </Tab>
                 </MobileView>
             </IntlProvider>
         );

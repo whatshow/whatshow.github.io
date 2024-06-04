@@ -10,7 +10,7 @@ const output = 'src/img-min';
 	await imagemin([JPEGImages], {
 		destination: output,
 		plugins: [
-			imageminMozjpeg({quality: 70})
+			imageminMozjpeg({quality: 20})
 		]
 	});
 

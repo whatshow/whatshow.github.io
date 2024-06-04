@@ -2,10 +2,10 @@ const zh_CN = {
     // header
     header_name: '博客',
     header_menu_1: '首页',
-    header_menu_2: '成果展示',
+    header_menu_2: '展示',
 
     // main
-    main_intro_name: "麦克",
+    main_intro_name: "Xinwei",
     main_intro_title: "云服务提供商, 通信工程师, 科学家",
     main_intro: "尊敬的用户，欢迎您访问我的博客。我可以提供网站开发等云平台服务。在成果展示中，我提供了一些例子供您参考。",
     main_loc: "澳大利亚，悉尼大学，IoT与通信研究中心",
@@ -19,7 +19,8 @@ const zh_CN = {
     main_contri_others: "其他",
     main_contri_others_01: "跨平台工具箱",
     main_pub: "论文发表",
-    main_right_txt_01: "我的领英",
+    main_right_txt_01: "领英",
+    main_right_txt_02: "脸书",
 
     // demos
     demos_menu_01: "旅行博客", 

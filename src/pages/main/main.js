@@ -9,7 +9,7 @@ import { MailOutlined, EnvironmentOutlined } from '@ant-design/icons';
 
 // components
 import { UniFooter } from "../../components/unifooter/unifooter";
-import { UniLinkedIn } from "../../components/uni-icons"
+import { UniLinkedIn, UniFacebook } from "../../components/uni-icons"
 
 // 引入样式
 import "./main.less";
@@ -21,7 +21,7 @@ export class Main extends React.Component{
                 <Content className='page-main-background'>
                     <div className='page-main-container'>
                         <div className='Left'>
-                            <img className='Ava' src="img/avatar.jpeg"/>
+                            <img className='Ava' src="img/avatar.jpg"/>
                             <ul className='Intro'>
                                 <li><h1><FormattedMessage id='main_intro_name'/></h1></li>
                                 <li><h3 className='Titles'><FormattedMessage id='main_intro_title'/></h3></li>
@@ -70,7 +70,8 @@ export class Main extends React.Component{
                             </ul>
                         </div>
                         <div className='Right'>
-                            <a href="https://www.linkedin.com/in/xwq" target="_blank"><UniLinkedIn className="Img"/> <span className='Txt'><FormattedMessage id='main_right_txt_01'/></span></a>
+                            <a href="https://www.linkedin.com/in/xwq" target="_blank"><UniLinkedIn className="Img"/><span className='Txt'><FormattedMessage id='main_right_txt_01'/></span></a>
+                            <a href="https://www.facebook.com/profile.php?id=61560685465828" target="_blank"><UniFacebook className="Img"/><span className='Txt'><FormattedMessage id='main_right_txt_02'/></span></a>
                         </div>
                     </div>
                 </Content>

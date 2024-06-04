@@ -5,7 +5,7 @@ const en_US = {
     header_menu_2: 'Demos',
 
     // main
-    main_intro_name: "Michael",
+    main_intro_name: "Xinwei",
     main_intro_title: "Cloud service provider, Communication Engineer, Researcher",
     main_intro: "Dear visitor, welcome to my blog. Here I offer the cloud service solution to boost your buiness. In demos, I offer some examples to view.",
     main_loc: "Centre for IoT & Telecoms, USYD, SYD, AU",
@@ -19,7 +19,8 @@ const en_US = {
     main_contri_others: "Others",
     main_contri_others_01: "Toolbox across platforms",
     main_pub: "PUBLICATIONS",
-    main_right_txt_01: "My LinkedIn",
+    main_right_txt_01: "LinkedIn",
+    main_right_txt_02: "Facebook",
 
     // demos
     demos_menu_01: "Travel Blog", 
