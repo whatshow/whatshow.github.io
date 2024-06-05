@@ -21,8 +21,7 @@ import { UniHeader } from "./components/uniheader/uniheader"
 // pages
 import { Main } from './pages/main/main';
 import { MainMobile } from './pages/main/main-mobile';
-import { DemosMobile } from './pages/demos/demos-mobile';
-import { Demo01 } from './pages/demos/demo01';
+import { DemosMobile, Demo01, Demo02 } from './pages/demos';
 
 
 export class App extends React.Component{
@@ -83,6 +82,7 @@ export class App extends React.Component{
                                 <Routes>
                                     <Route exact path="/"       element={ <Main/> } />
                                     <Route exact path="/demo01"  element={ <Demo01/> } />
+                                    <Route exact path="/demo02"  element={ <Demo02/> } />
                                 </Routes>
                             </div>
                         </Layout>

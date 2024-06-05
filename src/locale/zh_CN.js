@@ -24,6 +24,7 @@ const zh_CN = {
 
     // demos
     demos_menu_01: "旅行博客", 
+    demos_menu_02: "数据可视化",
     // demo-01
     demo_01_blogger_title: "视频博主",
     demo_01_blogger_subtitle: "我们和各地的博主合作来测试个性化服务",

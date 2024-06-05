@@ -8,7 +8,7 @@ import {FormattedMessage} from 'react-intl'
 import { Layout, Menu} from 'antd';
 const { Header} = Layout;
 // antd-icon
-import { DingdingOutlined, HomeFilled, DropboxOutlined, DockerOutlined } from '@ant-design/icons';
+import { DingdingOutlined, HomeFilled, DropboxOutlined, DockerOutlined, PieChartOutlined } from '@ant-design/icons';
 // utils
 import { isObjEmpty } from '../../utils/commonfns';
 
@@ -18,7 +18,8 @@ import "./uniheader.less";
 const menuitems = [
     {key: "1", label: <Link to="/"><FormattedMessage id="header_menu_1"/></Link>, icon: <HomeFilled />},
     {key: "2", label: <FormattedMessage id="header_menu_2"/>, icon: <DropboxOutlined />, theme: "light", children:[
-        {key: "21", label: <Link to="/demo01"><FormattedMessage id="demos_menu_01"/></Link>, icon: <DockerOutlined />}
+        {key: "21", label: <Link to="/demo01"><FormattedMessage id="demos_menu_01"/></Link>, icon: <DockerOutlined />},
+        {key: "22", label: <Link to="/demo02"><FormattedMessage id="demos_menu_02"/></Link>, icon: <PieChartOutlined />}
     ]},
     //{key: "21", label: "sfsfs", icon: <DockerOutlined />},
 ];

@@ -24,6 +24,7 @@ const en_US = {
 
     // demos
     demos_menu_01: "Travel Blog", 
+    demos_menu_02: "Microsoft Power BI",
     // demo-01
     demo_01_blogger_title: "Vloggers",
     demo_01_blogger_subtitle: "We cooperate with video blogger to test our tailored plans",
